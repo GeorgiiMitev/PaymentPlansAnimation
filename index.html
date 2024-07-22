@@ -113,7 +113,7 @@
 </html>
 <script>
     function firstTransition() {
-        document.getElementById("btn1").style = "background-color: black;"
+        document.getElementById("btn1").style = "transition: background-color 0.5s ease-in; background-color: #4cc27f;"
         document.getElementById("btn2").style = "background-color: transparent;"
         document.getElementById("btn3").style = "background-color: transparent;"
         let firstPlan = document.getElementById("plan1");
@@ -124,7 +124,7 @@
         thirdPlan.style = "animation: rewindY 0.45s ease-in-out; animation-fill-mode: forwards; display: none;"
     }
     function secondTransition() {
-        document.getElementById("btn2").style = "background-color: black;"
+        document.getElementById("btn2").style = "transition: background-color 0.5s ease-in; background-color: #087ce3;"
         document.getElementById("btn1").style = "background-color: transparent;"
         document.getElementById("btn3").style = "background-color: transparent;"
         let secondPlan = document.getElementById("plan2");
@@ -135,7 +135,7 @@
         thirdPlan.style = "animation: rewindY 0.45s ease-in-out; animation-fill-mode: forwards; display: none;"
     }
     function thirdTransition() {
-        document.getElementById("btn3").style = "background-color: black;"
+        document.getElementById("btn3").style = "transition: background-color 0.5s ease-in; background-color: #f8964f;"
         document.getElementById("btn1").style = "background-color: transparent;"
         document.getElementById("btn2").style = "background-color: transparent;"
         let thirdPlan = document.getElementById("plan3");
